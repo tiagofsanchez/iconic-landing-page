@@ -1,0 +1,24 @@
+.wrapperRight { 
+    display: grid;
+    grid-template-columns: minmax(400px ,600px) minmax(400px, 1fr);
+    align-items: center;  
+    grid-gap: 50px;
+}
+.wrapperLeft { 
+    display: grid;
+    grid-template-columns:  minmax(400px, 1fr) minmax(400px ,600px);
+    align-items: center;  
+    grid-gap: 50px;
+}
+
+
+.text { 
+    color: rebeccapurple;
+}
+
+.img{
+    height: 400px;
+    padding: 20px;
+    background-color: gray;
+    border-radius: 10px;
+}

@@ -1,0 +1,6 @@
+.wrapper {
+   margin: 50px;
+   display:grid;
+   grid-template-rows: auto;
+   grid-gap: 200px;   
+  }
