@@ -5,7 +5,7 @@ import Hero from "../components/Hero/hero"
 import UspSection from "../components/Layout/uspSection"
 import InvestorsSection from "../components/Layout/investorsSection"
 import FormSection from "../components/Layout/formSection"
-import Form from '../components/Form/form'
+import Form from "../components/Form/form"
 import { UspImageRight, UspImageLeft } from "../components/USP/usp"
 
 export default function Home() {

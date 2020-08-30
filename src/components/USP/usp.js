@@ -1,11 +1,12 @@
-import React from "react"
+/** @jsx jsx */
+import { jsx } from "theme-ui"
 import UspStyles from "./usp.module.css"
 
 export const UspImageRight = () => {
   return (
     <div className={UspStyles.wrapperRight}>
       <div className={UspStyles.img}>Images</div>
-      <div className={UspStyles.text}>
+      <div>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever

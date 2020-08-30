@@ -1,14 +1,27 @@
 .wrapperRight { 
     display: grid;
+    margin: auto;
     grid-template-columns: minmax(400px ,600px) minmax(400px, 1fr);
     align-items: center;  
     grid-gap: 50px;
+    
 }
+
 .wrapperLeft { 
     display: grid;
+    margin: auto;
     grid-template-columns:  minmax(400px, 1fr) minmax(400px ,600px);
     align-items: center;  
     grid-gap: 50px;
+}
+
+@media screen and (max-width: 1200px) {
+    .wrapperRight {    
+        grid-template-columns: auto;}
+        .wrapperLeft{    
+                grid-template-columns: auto;
+        }
+        
 }
 
 .img{

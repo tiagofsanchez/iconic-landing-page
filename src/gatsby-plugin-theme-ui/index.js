@@ -44,7 +44,6 @@ export default {
         fontFamily: "heading",
         lineHeight: 1.7,
         fontWeight: "bold",
-        color: "primary",
       },
       p: {
         fontFamily: "body",

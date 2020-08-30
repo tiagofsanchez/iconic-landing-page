@@ -4,3 +4,9 @@
     grid-gap: 50px;
     align-items: center;
 }
+
+@media screen and (max-width: 1200px) {
+.wrapper {
+    grid-template-columns: auto;
+}
+}

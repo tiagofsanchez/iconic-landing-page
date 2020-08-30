@@ -1,22 +1,7 @@
 .wrapper {
     margin: auto;
-    display: grid; 
-    grid-template-columns: minmax(400px, 1fr ) minmax(400px, 1000px); 
-    align-items: center;
+    display: grid; ; 
+    justify-items: center;
     grid-gap: 50px;
     margin: 100px 0px; 
-}
-
-.heroText { 
-    color:back;
-}
-
-.heroFilm { 
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    padding: 10px; 
-    height: 400px;
-    background-color: bisque;
-    border-radius: 10px;
 }
