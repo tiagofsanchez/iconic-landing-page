@@ -1,9 +1,10 @@
 .wrapper {
     margin: auto;
     display: grid; 
-    grid-template-columns: minmax(200px, 1fr ) minmax(400px, 1000px); 
+    grid-template-columns: minmax(400px, 1fr ) minmax(400px, 1000px); 
     align-items: center;
-    grid-gap: 50px; 
+    grid-gap: 50px;
+    margin: 100px 0px; 
 }
 
 .heroText { 
