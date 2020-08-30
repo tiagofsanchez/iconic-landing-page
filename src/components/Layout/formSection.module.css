@@ -1,0 +1,6 @@
+.wrapper { 
+    display: grid;
+    grid-template-columns: minmax(300px, 1fr) minmax(500px,1fr);
+    grid-gap: 50px;
+    align-items: center;
+}
