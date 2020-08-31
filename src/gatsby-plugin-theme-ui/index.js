@@ -1,8 +1,8 @@
 export default {
     breakpoints: ["375px", "768px", "1440px"],  
   colors: {
-    text: "#333",
-    background: "#fff",
+    text: "#cbd5e0",
+    background: "#1A202C",
     primary: "tomato",
     secondary: "#ff6347",
   },
