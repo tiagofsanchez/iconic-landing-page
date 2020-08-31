@@ -2,44 +2,26 @@
 import { jsx } from "theme-ui"
 import UspStyles from "./usp.module.css"
 
-export const UspImageRight = () => {
+export const UspImageRight = ({ title, content , imageComponent }) => {
   return (
     <div className={UspStyles.wrapperRight}>
-      <div className={UspStyles.img}>Images</div>
+      <div className={UspStyles.img}>{imageComponent? imageComponent : "images"}</div>
       <div>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
-        </p>
+        <h3>{title}</h3>
+        <p>{content}</p>
       </div>
     </div>
   )
 }
 
-export const UspImageLeft = () => {
+export const UspImageLeft = ({ title, content , imageComponent}) => {
   return (
     <div className={UspStyles.wrapperLeft}>
       <div className={UspStyles.text}>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
-        </p>
+        <h3>{title}</h3>
+        <p>{content}</p>
       </div>
-      <div className={UspStyles.img}>Images</div>
+      <div className={UspStyles.img}>{imageComponent? imageComponent : "images"}</div>
     </div>
   )
 }

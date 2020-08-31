@@ -71,7 +71,7 @@ export default {
       mb: `50px 0px`
     },
     hero: { 
-      width: ["100%", "90%", "90%"]
+      width: ["100%", "100%", "100%"]
     },
     main: { 
       width: "100%"
