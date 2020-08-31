@@ -1,7 +1,10 @@
-import React from 'react'; 
+/** @jsx jsx */
+import { jsx } from "theme-ui"
 
-const Header = () => { 
-    return <h1 style={{textAlign: `center`}}>THE ICONIC</h1>
+const Header = () => {
+  return (
+    <h1 sx={{ textAlign: `center`}}>THE ICONIC</h1>
+  )
 }
 
 export default Header

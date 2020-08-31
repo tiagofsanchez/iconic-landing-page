@@ -62,4 +62,32 @@ export default {
       },
     },
   },
+  layout: { 
+    root: { 
+      with: `100%`,
+    }, 
+    header: { 
+      with: `100%`,
+      mb: `50px 0px`
+    },
+    hero: { 
+      width: ["100%", "90%", "90%"]
+    },
+    main: { 
+      width: "100%"
+    },
+    uspSection: {
+      width: ["90%", "70%", "70%"] 
+    },
+    investorSection: {
+      width: ["90%", "70%", "70%"] 
+    },
+    contactSection: {
+      width: ["90%", "70%", "70%"] 
+    },
+    footer: { 
+      width: `100%`,
+      m: `50px 0px` 
+    }
+  }
 }
