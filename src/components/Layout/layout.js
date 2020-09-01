@@ -14,6 +14,7 @@ const Layout = ({ children }) => {
       <footer sx={{ variant: `layout.footer` }}>
         <Footer />
       </footer>
+
     </div>
   )
 }

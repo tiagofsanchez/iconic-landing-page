@@ -1,14 +1,14 @@
 export default {
     breakpoints: ["375px", "768px", "1440px"],  
   colors: {
-    text: "#cbd5e0",
-    background: "#1A202C",
+    text: "black",
+    background: "#fff",
     primary: "tomato",
     secondary: "#ff6347",
   },
   fonts: {
-    body: "system-ui, sans-serif",
-    heading: "system-ui, sans-serif",
+    body: "EB Garamond, system-ui, sans-serif",
+    heading: "EB Garamond, system-ui, sans-serif",
     monospace: "Menlo, monospace",
   },
   fontWeights: {
@@ -71,16 +71,28 @@ export default {
       mb: `50px 0px`
     },
     hero: { 
-      width: ["100%", "100%", "100%"]
+      width: ["100%", "100%", "100%"], 
+      margin: `auto`,
+      display: `grid`, 
+      justifyItems: `center`,
+      gridGap: `50px`
+  
     },
     main: { 
       width: "100%"
     },
     uspSection: {
-      width: ["90%", "70%", "70%"] 
+      width: ["90%", "70%", "70%"],
+      margin: `auto`, 
+      display: `grid`, 
+      gridGap: ["60px","100px","150px"]
+
     },
     investorSection: {
-      width: ["90%", "70%", "70%"] 
+      width: ["90%", "70%", "70%"],
+      margin: `auto`, 
+      display: `grid`, 
+      gridGap: ["60px","100px","150px"] 
     },
     contactSection: {
       width: ["90%", "70%", "70%"] 
