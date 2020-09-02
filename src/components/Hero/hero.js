@@ -1,14 +1,13 @@
 /** @jsx jsx */
-import { jsx, Embed, Button } from "theme-ui"
+import { jsx } from "theme-ui"
+import useHeroImg from "../../hooks/useHeroImg"
+import HeroBackground from "./heroBackground"
 
 const Hero = ({ tagline }) => {
+  const heroBackground = useHeroImg()
   return (
-    <div sx={{variant:`layout.hero`}}>
-      <Embed src="https://www.youtube.com/embed/OGdoJpCoItg" />
-      <div sx={{width: `90%`}}>
-        <h3>{tagline}</h3>
-        <Button>CONTACT TO LEARN MORE</Button>
-      </div>
+    <div sx={{variant: `layout.hero`}}>
+      <HeroBackground heroBackground={heroBackground} tagline={tagline} />
     </div>
   )
 }

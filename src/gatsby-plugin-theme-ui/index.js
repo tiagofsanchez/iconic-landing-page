@@ -3,7 +3,7 @@ export default {
   colors: {
     text: "black",
     background: "#fff",
-    primary: "tomato",
+    primary: "#ff6347",
     secondary: "#ff6347",
   },
   fonts: {
@@ -32,12 +32,14 @@ export default {
         fontFamily: "heading",
         fontWeight: "bold",
         color: "primary",
+        textShadow: `0px 10px 20px rgba(0, 0, 0, 0.25)`
       },
       h2: {
         fontSize: [27,27,30],
         fontFamily: "heading",
         fontWeight: "bold",
         color: "primary",
+        textShadow: `0px 10px 20px rgba(0, 0, 0, 0.25)`
       },
       h3: {
         fontSize: [20,20, 26],
@@ -65,18 +67,13 @@ export default {
   layout: { 
     root: { 
       with: `100%`,
+      marginTop: `0px`
     }, 
-    header: { 
-      with: `100%`,
-      mb: `50px 0px`
-    },
     hero: { 
       width: ["100%", "100%", "100%"], 
       margin: `auto`,
-      display: `grid`, 
-      justifyItems: `center`,
+      display: `grid`,
       gridGap: `50px`
-  
     },
     main: { 
       width: "100%"
