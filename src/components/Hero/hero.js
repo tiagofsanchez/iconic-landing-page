@@ -1,13 +1,13 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
-import useHeroImg from "../../hooks/useHeroImg"
+import useIconico from '../../hooks/useIconico'
 import HeroBackground from "./heroBackground"
 
 const Hero = ({ tagline }) => {
-  const heroBackground = useHeroImg()
+  const { imgHero2 } = useIconico()
   return (
     <div sx={{variant: `layout.hero`}}>
-      <HeroBackground heroBackground={heroBackground} tagline={tagline} />
+      <HeroBackground heroBackground={imgHero2} tagline={tagline} />
     </div>
   )
 }

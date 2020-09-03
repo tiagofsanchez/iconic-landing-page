@@ -3,7 +3,7 @@ export default {
   colors: {
     text: "black",
     background: "#fff",
-    primary: "#ff6347",
+    primary: "black",
     secondary: "#ff6347",
   },
   fonts: {

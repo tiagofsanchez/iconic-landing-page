@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns: repeat(2, minmax(0px, auto));
   grid-template-rows: repeat(3,1fr);
- 
 }
 
 .image {

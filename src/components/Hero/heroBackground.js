@@ -9,9 +9,9 @@ const heroBackground = ({ heroBackground, tagline }) => {
       fluid={heroBackground}
       className={backgroundStyles.container}
     >
-      <div sx={{ textAlign: `center`, margin: `20px` }} >
-        <h3 className={backgroundStyles.tagline} >{tagline}</h3>
-        <h1 className={backgroundStyles.title} sx={{color: `white`}}>ICONICO</h1>
+      <div sx={{ textAlign: `center`, margin: `20px` }}>
+        <h3 className={backgroundStyles.tagline}>{tagline}</h3>
+        <h1 sx={{ color: `white` }}>ICONICO</h1>
       </div>
     </BackgroundImage>
   )
