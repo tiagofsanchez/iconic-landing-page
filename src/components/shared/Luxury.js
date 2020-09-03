@@ -35,28 +35,22 @@ const convertArrayToObject = array => {
 
 const Luxury = () => {
   const { imgLuxury } = useIconico()
-  const img0 = convertArrayToObject(imgLuxury).img0
-  const img1 = convertArrayToObject(imgLuxury).img1
-  const img2 = convertArrayToObject(imgLuxury).img2
-  const img3 = convertArrayToObject(imgLuxury).img3
-  const img4 = convertArrayToObject(imgLuxury).img4
-  const img5 = convertArrayToObject(imgLuxury).img5
-  const img6 = convertArrayToObject(imgLuxury).img6
-
+  const images = convertArrayToObject(imgLuxury)
+  
   return (
     <GridContainer>
       <SmallGrid>
-        <Img fluid={img3} />
-        <Img fluid={img0} />
-        <Img fluid={img4} />
+        <Img fluid={images.img3} />
+        <Img fluid={images.img0} />
+        <Img fluid={images.img4} />
       </SmallGrid>
       <Grid>
-        <Img fluid={img5} />
+        <Img fluid={images.img5} />
       </Grid>
       <SmallGrid>
-        <Img fluid={img2} />
-        <Img fluid={img1} />
-        <Img fluid={img6} />
+        <Img fluid={images.img2} />
+        <Img fluid={images.img1} />
+        <Img fluid={images.img6} />
       </SmallGrid>
     </GridContainer>
   )

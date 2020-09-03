@@ -6,6 +6,8 @@ import Hero2 from "../components/Hero/hero2"
 import Luxury from "../components/shared/Luxury"
 import Text from "../components/USP/text"
 import Iconico from "../components/shared/Iconico"
+import Portugal from '../components/shared/Portugal88'
+import Portugal881 from '../components/shared/Portugal881'
 
 const Home = () => {
   return (
@@ -42,6 +44,10 @@ const Home = () => {
             title="PORTUGAL 88"
             description="Our first fund is in Portugal, a beautiful country with a solid track record in high ROI, we’ll invest in 15 iconic properties for short and mid term rentals expecting strong rental yields and one of Europe’s fastest growing property appreciation. All properties in our funds are available for investors to enjoy. This fund is also Golden Visa eligible."
           />
+          <div sx={{display: `grid`, gridGap: `5px`}}>
+          <Portugal />
+          <Portugal881 />
+          </div>
         </div>
 
         <div>
