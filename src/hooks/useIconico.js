@@ -69,7 +69,6 @@ const useIconico = () => {
   const imgLuxury = data.luxury.edges
   const imgPortugal = data.portugal.edges
   const imgWhatWeDo = data.whatWeDo.childImageSharp.fluid 
-  console.log(imgHero2);
   return { imgIconico, imgLuxury, imgPortugal, imgWhatWeDo , imgHero, imgHero2}
 }
 

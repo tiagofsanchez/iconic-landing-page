@@ -4,10 +4,10 @@ import useIconico from '../../hooks/useIconico'
 import HeroBackground from "./heroBackground"
 
 const Hero = ({ tagline }) => {
-  const { imgHero2 } = useIconico()
+  const { imgHero } = useIconico()
   return (
     <div sx={{variant: `layout.hero`}}>
-      <HeroBackground heroBackground={imgHero2} tagline={tagline} />
+      <HeroBackground heroBackground={imgHero} tagline={tagline} />
     </div>
   )
 }

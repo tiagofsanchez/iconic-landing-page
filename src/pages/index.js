@@ -2,44 +2,33 @@
 import { jsx } from "theme-ui"
 import Layout from "../components/Layout/layout"
 import Hero from "../components/Hero/hero"
+import Hero2 from "../components/Hero/hero2"
+import Luxury from "../components/shared/Luxury"
 import Text from "../components/USP/text"
 import Iconico from "../components/shared/Iconico"
-import WhatWeDo from "../components/shared/WhatWeDo"
 
 const Home = () => {
   return (
     <Layout>
-      <Hero tagline="The world’s most extraordinary homes with the highest standard of service can now make your dream holidays come true." />
+      <Hero tagline="We believe the world’s most extraordinary homes are too important not to be share" />
       <section>
         <div>
           <Text
-            title="What is ICONICO"
-            description="A luxury property management company focused on short and mid term rentals market targeting high-end tourism and executive business travel customers"
-          />
-          <Iconico />
-        </div>
-        <div>
-          <Text
-            title="What do we do"
-            description="We make money renting properties to customers through listing on multiple platforms (e.g. Airbnb, Booking, Agoda, etc.). We manage everything about these properties, from day to day maintenance to the entire rental guest experience from check-in to check-out. We’re not a tech company but certainly tech is at the core of our success"
+            title="We turn dreams into memories"
+            description="Our customers experience iconic properties in each destination with all the amenities, privacy, comfort and technology for a once in a lifetime experience with their family and friends. Each home can be found in the leading online platforms for short term rentals in the world and comes with 24 hours support and a wide range of on demand services available to enjoy."
           />
         </div>
+        <Iconico />
         <div>
           <Text
-            title="We're the future of luxury hospitality"
-            description="Customers enjoy total privacy and true at home feeling by renting the entire property. With a broad variety of properties within the same city or region we offer vastly different experiences unmatched by hotels. Outstanding customer experience supported by seamless technology, 24h support, consistent comfort across all properties and on demand services like private chef or at home massage, are all an integral part of our success."
+            title="ICONICO is luxury property management company offering short and mid-term rentals in true landmark properties"
+            description="With personal service dedicated to our hosts and guests, ICONICO aims to be the global standard for short and mid term luxury rental property management. Designed for the diligent host in mind, our mission is to help landlords turn their loved private properties into profitable investments while keeping the care and affection that these unique homes deserve by using technology to bring the tradition of luxury hospitality to the private property market."
           />
-        </div>
-
-        <div>
-          <Text
-            title="Technology is at our core"
-            description="The best experience is one where customers are in full control without the effort of doing so. We provide highly intuitive technology for customers to control everything about our homes during their stay. To our partners, property owners, we provide a platform for real time visibility on everything, from occupancy and payments to guest reports and reviews, about their property."
-          />
+          <Luxury />
         </div>
       </section>
       <section>
-        <h1>The future of luxury ownership in the real estate market</h1>
+        <Hero2 title="The future of luxury ownership in the real estate market" />
       </section>
       <section>
         <div>
