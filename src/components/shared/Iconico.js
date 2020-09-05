@@ -4,14 +4,16 @@ import useIconico from "../../hooks/useIconico"
 import styled from '@emotion/styled'
 
 const Container = styled.div`
+width: 100%; 
+grid-area: img;
 display: grid;
+grid-gap: 5px;
 grid-template-columns: repeat(2, minmax(0px, auto));
 grid-template-rows: repeat(3,1fr);
 `
 
 const ImgContainer = styled.div`
 display: grid;
-margin: 5px;
 background-size: 100%;
 background-position: center;
 background-repeat: no-repeat

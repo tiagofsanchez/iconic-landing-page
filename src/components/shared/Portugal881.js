@@ -6,8 +6,18 @@ import styled from "@emotion/styled"
 
 const GridContainer = styled.div`
   display: grid;
-  grid-template-columns: repeat(4, auto);
-  grid-gap: 5px;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 30px;
+  @media (max-width: 1000px) {
+    grid-gap: 5px;
+  }
+`
+
+const Grid = styled.div`
+display: grid; 
+grid-template-columns: repeat(2, auto);
+grid-gap: 5px; 
+
 `
 
 const convertArrayToObject = array => {
@@ -27,10 +37,14 @@ const Portugal881 = () => {
 
   return (
     <GridContainer>
+      <Grid>
       <Img fluid={images.img3} />
       <Img fluid={images.img1} />
+      </Grid>
+      <Grid>
       <Img fluid={images.img6} />
       <Img fluid={images.img4} />
+      </Grid>
     </GridContainer>
   )
 }
