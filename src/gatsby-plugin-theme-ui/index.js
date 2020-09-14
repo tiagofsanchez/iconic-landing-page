@@ -14,7 +14,7 @@ export default {
   fontWeights: {
     body: 400,
     heading: 700,
-    bold: 700,
+    bold: 900,
   },
   lineHeights: {
     body: 1.5,
@@ -28,18 +28,17 @@ export default {
       lineHeight: "body",
       fontWeight: "body",
       h1: {
-        fontSize: [27,27,44],
+        fontSize: [36,36,44],
         fontFamily: "heading",
         fontWeight: "bold",
         color: "primary",
-        textShadow: `0px 10px 20px rgba(0, 0, 0, 0.25)`
+        textShadow: `0px 10px 20px rgba(0, 0, 0, 0.8)`
       },
       h2: {
-        fontSize: [27,27,30],
+        fontSize: [27,27,36],
         fontFamily: "heading",
         fontWeight: "bold",
         color: "primary",
-        textShadow: `0px 10px 20px rgba(0, 0, 0, 0.25)`
       },
       h3: {
         fontSize: [20,20, 26],
@@ -50,6 +49,7 @@ export default {
       p: {
         fontFamily: "body",
         lineHeight: "body",
+        fontSize: 20,
       },
       ul: {
         my: 2,
