@@ -1,5 +1,6 @@
 /** @jsx jsx */
 import { jsx, Embed } from "theme-ui"
+
 import Layout from "../components/Layout/layout"
 import Hero from "../components/Hero/hero"
 import Hero2 from "../components/Hero/hero2"
@@ -56,6 +57,7 @@ const InvestorSection = styled.section`
 `
 
 const Home = () => {
+ 
   return (
     <Layout>
       <Hero tagline="We believe the world’s most extraordinary homes are too important not to be share" />
