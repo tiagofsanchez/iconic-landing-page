@@ -2,6 +2,7 @@
 import { jsx, Embed } from "theme-ui"
 
 import Layout from "../components/Layout/layout"
+import SEO from '../components/shared/SEO'
 import Hero from "../components/Hero/hero"
 import Hero2 from "../components/Hero/hero2"
 import Luxury from "../components/shared/Luxury"
@@ -60,6 +61,7 @@ const Home = () => {
  
   return (
     <Layout>
+      <SEO />
       <Hero tagline="We believe the world’s most extraordinary homes are too important not to be share" />
       <UpsSection>
         <RightSection>
