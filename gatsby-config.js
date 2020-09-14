@@ -6,7 +6,7 @@ module.exports = {
     description:
       "The future of luxury ownership in the real estate market. Our customers experience iconic properties everywhere in the world",
     siteUrl: "https://iconico.netlify.app/",
-    image: "/images/Hero2/hero2.jpg",
+    image: "./images/Hero2/hero2.jpg",
     siteLanguage: `en`,
   },
   plugins: [
