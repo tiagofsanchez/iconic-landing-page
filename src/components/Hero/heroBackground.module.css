@@ -1,6 +1,6 @@
 .container {
   width: 100%;
-  height: 90vh;
+  height: 100vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -8,7 +8,9 @@
 
 @media screen and (max-width: 600px) {
   .container { 
-    height: 500px;
+    height: 700px;
+    background-position: right;
+    background-size: auto;
   }
 
 }

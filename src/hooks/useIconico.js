@@ -5,7 +5,7 @@ const useIconico = () => {
     {
       hero: file(relativePath: { eq: "Hero/hero.jpg" }) {
         childImageSharp {
-          fluid(quality: 100)   {
+          fluid(maxWidth: 4080, quality: 100)   {
             ...GatsbyImageSharpFluid
          
           }
@@ -13,7 +13,7 @@ const useIconico = () => {
       }
       hero2: file(relativePath: { eq: "Hero2/hero2.jpg" }) {
         childImageSharp {
-          fluid(quality: 100)   {
+          fluid(maxWidth: 4080, quality: 100)   {
             ...GatsbyImageSharpFluid
          
           }
@@ -23,7 +23,7 @@ const useIconico = () => {
         edges {
           node {
             childImageSharp {
-              fluid(quality: 100) {
+              fluid(maxWidth: 1080, quality: 100) {
                 ...GatsbyImageSharpFluid
               }
             }
@@ -36,7 +36,7 @@ const useIconico = () => {
         edges {
           node {
             childImageSharp {
-              fluid(quality: 100) {
+              fluid(maxWidth: 1080,quality: 100) {
                 ...GatsbyImageSharpFluid
               }
             }
@@ -47,7 +47,7 @@ const useIconico = () => {
         edges {
           node {
             childImageSharp {
-              fluid(quality: 100) {
+              fluid(maxWidth: 1080, quality: 100) {
                 ...GatsbyImageSharpFluid
               }
             }

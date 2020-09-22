@@ -28,7 +28,7 @@ export default {
       lineHeight: "body",
       fontWeight: "body",
       h1: {
-        fontSize: [36,36,44],
+        fontSize: [27,36,44],
         fontFamily: "heading",
         fontWeight: "bold",
         color: "primary",
