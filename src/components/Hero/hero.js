@@ -1,12 +1,7 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
-import styled from "@emotion/styled"
 import useIconico from "../../hooks/useIconico"
-import HeroBackground from '../Hero/heroBackground'
-
-const ImgContainer = styled.div`
-  width: auto;
-`
+import HeroBackground from "../Hero/heroBackground"
 
 const Hero = ({ tagline }) => {
   const { imgHero } = useIconico()

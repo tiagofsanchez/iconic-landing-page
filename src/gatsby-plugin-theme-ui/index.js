@@ -96,7 +96,9 @@ export default {
     },
     footer: { 
       width: `100%`,
-      m: `50px 0px` 
+      height: `80px`,
+      display: `grid`, 
+      alignItems: `center`
     }
   }
 }
