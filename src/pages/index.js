@@ -110,27 +110,23 @@ const Home = () => {
             title="Join our Smart Real Estate Investment Funds"
             description="Investors are shareholders of all properties in the fund by entering with a portion of the total value, ICONICO will market for short and mid-term rentals and manage everything about them to maximize returns and create the best experience for customers and investors to enjoy. We pay rental yields monthly and provide some of the best capital appreciation in the market by leveraging our funds capital to acquire iconic properties uniquely located with unmatched experience. When investing in one fund you can also enjoy homes for all funds worldwide, so everywhere you go there’s a dream home waiting for you."
           />
-            <PhotosContainer>
-          <Luxury />
+          <PhotosContainer>
+            <Luxury />
           </PhotosContainer>
         </GridAreaSection>
         <div>
-          <GridAreaSection>
-            <PhotosContainer>
-              <Portugal />
-            </PhotosContainer>
-            <TextContainer>
-              <div>
-                <Text
-                  title="PORTUGAL 88 Real Estate Fund"
-                  description="Portugal is a beautiful country with a solid track record returning on investment, our fund will acquire up to 15 iconic properties in key touristic locations of today and tomorrow expecting strong rental yields and one of Europe’s fastest growing property appreciation rates. All properties will be available for investors to enjoy 14 days per year. PORTUGAL 88 is a Golden Visa eligible fund with a limited number of investors."
-                />
-                <p sx={{ fontStyle: `italic` }}>
-                  “Portugal is Europe’s Hottest Property Market...” by Bloomberg
-                </p>
-              </div>
-            </TextContainer>
-          </GridAreaSection>
+          <RightSection>
+            <div>
+              <Text
+                title="PORTUGAL 88 Real Estate Fund"
+                description="Portugal is a beautiful country with a solid track record returning on investment, our fund will acquire up to 15 iconic properties in key touristic locations of today and tomorrow expecting strong rental yields and one of Europe’s fastest growing property appreciation rates. All properties will be available for investors to enjoy 14 days per year. PORTUGAL 88 is a Golden Visa eligible fund with a limited number of investors."
+              />
+              <p sx={{ fontStyle: `italic` }}>
+                “Portugal is Europe’s Hottest Property Market...” by Bloomberg
+              </p>
+            </div>
+            <Portugal />
+          </RightSection>
           <div sx={{ width: `90%`, margin: `auto`, marginTop: `5px` }}>
             <Portugal881 />
           </div>
