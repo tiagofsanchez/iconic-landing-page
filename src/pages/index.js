@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { jsx, Embed } from "theme-ui"
+import { jsx } from "theme-ui"
 import ReactPlayer from "react-player"
 
 import Layout from "../components/Layout/layout"

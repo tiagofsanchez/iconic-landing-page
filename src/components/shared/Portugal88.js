@@ -71,7 +71,7 @@ const Portugal = () => {
           <Img fluid={images.img0} />
         </Img0>
         <Img1>
-          <Img fluid={images.img5} />
+          <Img fluid={images.img3} />
         </Img1>
         <Img2>
           <Img fluid={images.img2} />

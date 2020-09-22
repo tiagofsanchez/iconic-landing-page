@@ -38,12 +38,12 @@ const Portugal881 = () => {
   return (
     <GridContainer>
       <Grid>
-      <Img fluid={images.img3} />
+      <Img fluid={images.img4} />
       <Img fluid={images.img1} />
       </Grid>
       <Grid>
       <Img fluid={images.img6} />
-      <Img fluid={images.img4} />
+      <Img fluid={images.img5} />
       </Grid>
     </GridContainer>
   )

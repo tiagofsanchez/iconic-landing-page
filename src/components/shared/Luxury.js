@@ -17,9 +17,9 @@ width: 100%;
 `
 
 const SmallGrid = styled.div`
-    display: grid; 
-    grid-template-rows: repeat(3, 1fr);
-    grid-gap: 5px;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 5px;
 `
 
 const convertArrayToObject = array => {
@@ -36,21 +36,21 @@ const convertArrayToObject = array => {
 const Luxury = () => {
   const { imgLuxury } = useIconico()
   const images = convertArrayToObject(imgLuxury)
-  
+
   return (
     <GridContainer>
       <SmallGrid>
-        <Img fluid={images.img3} />
-        <Img fluid={images.img0} />
         <Img fluid={images.img4} />
+        <Img fluid={images.img0} />
+        <Img fluid={images.img5} />
       </SmallGrid>
       <Grid>
-        <Img fluid={images.img5} />
+        <Img fluid={images.img6} />
       </Grid>
       <SmallGrid>
         <Img fluid={images.img2} />
+        <Img fluid={images.img3} />
         <Img fluid={images.img1} />
-        <Img fluid={images.img6} />
       </SmallGrid>
     </GridContainer>
   )
