@@ -61,7 +61,7 @@ const Home = () => {
   return (
     <Layout>
       <SEO />
-      <Hero tagline="The world’s most extraordinary homes are too important not to be share" />
+      <Hero tagline="The world’s most extraordinary homes are too important not to be shared" />
       <UpsSection>
         <RightSection>
           <Text
