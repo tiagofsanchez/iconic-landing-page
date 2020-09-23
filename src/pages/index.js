@@ -68,11 +68,15 @@ const Home = () => {
             title="We turn dreams into memories"
             description="Our customers can rent iconic properties across the world with all the amenities, comfort and privacy for a once in a lifetime trip with their family and friends. Each home is an experience with a wide range of on demand services available and 24 hours customer support, all enabled by our seamless technology at their fingertips."
           />
-          <ReactPlayer
-            width="100%"
-            heigh="auto"
-            url="https://www.youtube.com/embed/uej9t2FI4fA"
-          />
+          <div sx={{ position: `relative`, paddingTop: `56.25%` }}>
+            <ReactPlayer
+              url="https://vimeo.com/455871305/e27885077d"
+              width="100%"
+              height="100%"
+              controls="true"
+              style={{ position: `absolute`, top: `0`, left: `0` }}
+            />
+          </div>
         </RightSection>
         <GridAreaSection>
           <TextContainer>
@@ -133,7 +137,7 @@ const Home = () => {
         </div>
       </InvestorSection>
       <footer sx={{ variant: `layout.footer`, textAlign: `center` }}>
-        <p sx={{color: `iconico`}}>&#169; ICONICO, 2020</p>
+        <p sx={{ color: `iconico` }}>&#169; ICONICO, 2020</p>
       </footer>
     </Layout>
   )

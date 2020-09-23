@@ -4,8 +4,8 @@ module.exports = {
     title: "ICONICO",
     titleTemplate: "%s - Luxury property management",
     description:
-      "The future of luxury ownership in the real estate market. Our customers experience iconic properties everywhere in the world. Join them!",
-    siteUrl: "https://iconico.netlify.app/",
+      "ICONICO is a luxury property management company offering short and mid-term rentals in true landmark properties.",
+    siteUrl: "https://www.theiconico.com/",
     image: "./images/Hero2/hero2.jpg",
     siteLanguage: `en`,
   },
