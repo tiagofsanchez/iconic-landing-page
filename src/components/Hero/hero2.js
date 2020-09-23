@@ -8,7 +8,7 @@ const Hero2 = ({ title }) => {
   const { imgHero2 } = useIconico()
 
   return (
-    <BackgroundImage fluid={imgHero2} className={backgroundStyles.container}>
+    <BackgroundImage fluid={imgHero2} className={backgroundStyles.containerBlue}>
       <div sx={{ padding: `40px` }}>
         <h1 sx={{ marginTop: `0px`, textAlign: `center`, color: `white` }}>
           {title}
