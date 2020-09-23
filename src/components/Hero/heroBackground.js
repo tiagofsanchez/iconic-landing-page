@@ -10,7 +10,7 @@ const heroBackground = ({ heroBackground, tagline }) => {
       className={backgroundStyles.container}
     >
       <div sx={{ textAlign: `center`, margin: `20px` }}>
-        <h1 className={backgroundStyles.tagline}>{tagline}</h1>
+        <h1 className={backgroundStyles.tagline} sx={{color: `iconico`}}>{tagline}</h1>
       </div>
     </BackgroundImage>
   )

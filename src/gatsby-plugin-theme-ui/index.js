@@ -1,10 +1,11 @@
 export default {
     breakpoints: ["375px", "768px", "1440px"],  
   colors: {
-    text: "black",
+    text: "rgba(0, 0, 0, 0.6)",
     background: "#fff",
     primary: "black",
     secondary: "#ff6347",
+    iconico: "#274e13",
   },
   fonts: {
     body: "EB Garamond, system-ui, sans-serif",
@@ -32,13 +33,12 @@ export default {
         fontFamily: "heading",
         fontWeight: "bold",
         color: "primary",
-        textShadow: `0px 10px 20px rgba(0, 0, 0, 0.8)`
       },
       h2: {
         fontSize: [27,27,36],
         fontFamily: "heading",
         fontWeight: "bold",
-        color: "primary",
+        color: "iconico",
       },
       h3: {
         fontSize: [20,20, 26],

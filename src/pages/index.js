@@ -93,7 +93,7 @@ const Home = () => {
         <RightSection>
           <Text
             title="ICONICO smart funds are the future of luxury real estate investment"
-            description="By managing hundreds of the world’s most beautiful properties, from independent owners and our funds, we’re uniquely positioned to find the best balance portfolio between strong ROI and unmatched experience for our fund investors to make money while also enjoying these properties."
+            description="Our funds are first and foremost focused on bringing the highest returns to our investors through renting its properties to high-end holiday and business travelers. But we made it smarter so investors can enjoy these properties 14 days every year at no cost, as a true owner would do, to create long lasting memories and traditions with their family and friends. With ICONICO smart funds you can own your dream ranch, vineyard estate, beach villa, castle, palace, ski chalet, city apartment and much more while making a profit through rental and capital appreciation yields."
           />
           <div sx={{ position: `relative`, paddingTop: `56.25%` }}>
             <ReactPlayer
@@ -108,7 +108,7 @@ const Home = () => {
         <GridAreaSection>
           <Text
             title="Join our Smart Real Estate Investment Funds"
-            description="Investors are shareholders of all properties in the fund by entering with a portion of the total value, ICONICO will market for short and mid-term rentals and manage everything about them to maximize returns and create the best experience for customers and investors to enjoy. We pay rental yields monthly and provide some of the best capital appreciation in the market by leveraging our funds capital to acquire iconic properties uniquely located with unmatched experience. When investing in one fund you can also enjoy homes for all funds worldwide, so everywhere you go there’s a dream home waiting for you."
+            description="By managing hundreds of the world’s most beautiful properties through ICONICO, we’re uniquely positioned to find the best balance portfolio between strong ROI and unmatched experience for our customers and investors to make money while also enjoying these properties. We pay rental yields monthly and provide some of the best capital appreciation in the market by leveraging our funds capital to acquire iconic properties uniquely located with unmatched experience. When investing in one fund you can also enjoy homes from all funds worldwide, so everywhere you go there’s a dream home waiting for you."
           />
           <PhotosContainer>
             <Luxury />
@@ -133,7 +133,7 @@ const Home = () => {
         </div>
       </InvestorSection>
       <footer sx={{ variant: `layout.footer`, textAlign: `center` }}>
-        <p>&#169; by ICONICO, 2020</p>
+        <p sx={{color: `iconico`}}>&#169; ICONICO, 2020</p>
       </footer>
     </Layout>
   )
