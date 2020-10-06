@@ -16,7 +16,6 @@ const GridContainer = styled.div`
 
 const Portugal = () => {
   const { imgPortugal } = useIconico()
-  console.log(imgPortugal)
 
   return (
     <GridContainer>

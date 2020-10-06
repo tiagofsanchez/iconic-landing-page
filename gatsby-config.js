@@ -2,9 +2,9 @@ const path = require(`path`)
 module.exports = {
   siteMetadata: {
     title: "ICONICO",
-    titleTemplate: "%s - Luxury property management",
+    titleTemplate: "%s - Luxury Property Management",
     description:
-      "ICONICO is a luxury property management company offering short and mid-term rentals in true landmark properties.",
+      "The world’s most extraordinary homes are too important not to be shared",
     siteUrl: "https://www.theiconico.com/",
     image: "./images/Hero2/hero2.jpg",
     siteLanguage: `en`,

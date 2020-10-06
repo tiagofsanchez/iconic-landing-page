@@ -10,6 +10,6 @@
   width: 100%;
   height: 100vh;
   background-size: cover;
-  background-position: right;
+  background-position-x: 85%;
   background-repeat: no-repeat;
 }

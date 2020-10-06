@@ -21,8 +21,6 @@ const SEO = () => {
     siteLanguage: siteLanguage,
   }
 
-  console.log(seo)
-
   return (
     <Helmet
       htmlAttributes={{ siteLanguage }}

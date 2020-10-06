@@ -15,15 +15,15 @@ const Hero2 = ({ title }) => {
       <div sx={{ padding: `40px` }}>
         <h1
           sx={{
-            marginTop: `50px`,
+            marginTop: `30px`,
             textAlign: `center`,
             color: `white`,
-            mb: `10px`,
+            mb: `5px`,
           }}
         >
           {title}
         </h1>
-        <p sx={{ textAlign: `center`, color: `white` }}>by ICONICO</p>
+        <p sx={{ textAlign: `center`, color: `white` , mt: `5px`, fontSize: `15px`}}>with ICONICO</p>
       </div>
     </BackgroundImage>
   )
