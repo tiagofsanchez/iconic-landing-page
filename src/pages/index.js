@@ -10,7 +10,6 @@ import Luxury from "../components/shared/Luxury"
 import Text from "../components/USP/text"
 import Iconico from "../components/shared/Iconico"
 import Portugal from "../components/shared/Portugal88"
-import Portugal881 from "../components/shared/Portugal881"
 import styled from "@emotion/styled"
 
 const UpsSection = styled.section`
@@ -145,9 +144,6 @@ const Home = () => {
             </div>
             <Portugal />
           </RightSection>
-          <div sx={{ width: `90%`, margin: `auto`, marginTop: `5px` }}>
-            <Portugal881 />
-          </div>
         </div>
       </InvestorSection>
       <footer sx={{ variant: `layout.footer`, textAlign: `center` }}>
