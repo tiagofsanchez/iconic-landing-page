@@ -9,10 +9,10 @@ const useSiteMetadata = () => {
           title
           titleTemplate
           siteUrl
-          siteLanguage 
+          siteLanguage
         }
       }
-      file(relativePath: {eq: "Hero2/hero2.jpg"}) {
+      file(relativePath: { eq: "Hero2/hero2.jpg" }) {
         publicURL
       }
     }
@@ -21,9 +21,9 @@ const useSiteMetadata = () => {
     description: data.site.siteMetadata.description,
     title: data.site.siteMetadata.title,
     titleTemplate: data.site.siteMetadata.titleTemplate,
-    siteUrl: data.site.siteMetadata.siteUrl, 
+    siteUrl: data.site.siteMetadata.siteUrl,
     siteLanguage: data.site.siteMetadata.siteLanguage,
-    image: data.file.publicURL
+    image: data.file.publicURL,
   }
 }
 

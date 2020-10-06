@@ -1,5 +1,5 @@
 export default {
-    breakpoints: ["375px", "768px", "1440px"],  
+  breakpoints: ["375px", "768px", "1440px"],
   colors: {
     text: "rgba(0, 0, 0, 0.6)",
     background: "#fff",
@@ -29,19 +29,19 @@ export default {
       lineHeight: "body",
       fontWeight: "body",
       h1: {
-        fontSize: [27,36,44],
+        fontSize: [27, 36, 44],
         fontFamily: "heading",
         fontWeight: "bold",
         color: "primary",
       },
       h2: {
-        fontSize: [27,27,36],
+        fontSize: [27, 27, 36],
         fontFamily: "heading",
         fontWeight: "bold",
         color: "iconico",
       },
       h3: {
-        fontSize: [20,20, 26],
+        fontSize: [20, 20, 26],
         fontFamily: "heading",
         lineHeight: 1.7,
         fontWeight: "bold",
@@ -49,7 +49,7 @@ export default {
       p: {
         fontFamily: "body",
         lineHeight: "body",
-        fontSize: 20,
+        fontSize: 22,
       },
       ul: {
         my: 2,
@@ -64,41 +64,40 @@ export default {
       },
     },
   },
-  layout: { 
-    root: { 
+  layout: {
+    root: {
       with: `100%`,
-      marginTop: `0px`
-    }, 
-    hero: { 
-      width: ["100%", "100%", "100%"], 
+      marginTop: `0px`,
+    },
+    hero: {
+      width: ["100%", "100%", "100%"],
       margin: `auto`,
       display: `grid`,
-      gridGap: `50px`
+      gridGap: `50px`,
     },
-    main: { 
-      width: "100%"
+    main: {
+      width: "100%",
     },
     uspSection: {
       width: ["90%", "70%", "70%"],
-      margin: `auto`, 
-      display: `grid`, 
-      gridGap: ["60px","100px","150px"]
-
+      margin: `auto`,
+      display: `grid`,
+      gridGap: ["60px", "100px", "150px"],
     },
     investorSection: {
       width: ["90%", "70%", "70%"],
-      margin: `auto`, 
-      display: `grid`, 
-      gridGap: ["60px","100px","150px"] 
+      margin: `auto`,
+      display: `grid`,
+      gridGap: ["60px", "100px", "150px"],
     },
     contactSection: {
-      width: ["90%", "70%", "70%"] 
+      width: ["90%", "70%", "70%"],
     },
-    footer: { 
+    footer: {
       width: `100%`,
       height: `80px`,
-      display: `grid`, 
-      alignItems: `center`
-    }
-  }
+      display: `grid`,
+      alignItems: `center`,
+    },
+  },
 }

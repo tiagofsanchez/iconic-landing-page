@@ -48,9 +48,9 @@ const Luxury = () => {
         <Img fluid={images.img6} />
       </Grid>
       <SmallGrid>
+        <Img fluid={images.img1} />
         <Img fluid={images.img2} />
         <Img fluid={images.img3} />
-        <Img fluid={images.img1} />
       </SmallGrid>
     </GridContainer>
   )

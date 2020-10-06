@@ -17,35 +17,35 @@ const Grid0 = styled.div`
   grid-gap: 5px;
 `
 const Img0 = styled.div`
-  display: grid;  
+  display: grid;
   grid-area: img0;
 `
 const Img1 = styled.div`
-display: grid;
+  display: grid;
   grid-area: img1;
 `
 const Img2 = styled.div`
-display: grid;
+  display: grid;
   grid-area: img2;
 `
 
 const Grid1 = styled.div`
-display: grid;
+  display: grid;
   grid-template-areas:
     "img3 img4 img4"
     "img5 img4 img4";
   grid-gap: 5px;
 `
 const Img3 = styled.div`
-display: grid;
+  display: grid;
   grid-area: img3;
 `
 const Img4 = styled.div`
-display: grid;
+  display: grid;
   grid-area: img4;
 `
 const Img5 = styled.div`
-display: grid;
+  display: grid;
   grid-area: img5;
 `
 

@@ -9,7 +9,7 @@ const Container = styled.div`
   display: grid;
   grid-gap: 5px;
   grid-template-columns: repeat(2, minmax(0px, auto));
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto);
 `
 
 const ImgContainer = styled.div`

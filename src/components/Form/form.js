@@ -1,6 +1,6 @@
 /** @jsx jsx */
-import { jsx, Box, Input, Button, Label } from "theme-ui";
-// import { useState } from 'react';  
+import { jsx, Box, Input, Button, Label } from "theme-ui"
+// import { useState } from 'react';
 
 const Form = () => {
   return (

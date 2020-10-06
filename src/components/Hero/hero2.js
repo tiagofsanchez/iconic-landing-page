@@ -13,9 +13,17 @@ const Hero2 = ({ title }) => {
       className={backgroundStyles.containerBlue}
     >
       <div sx={{ padding: `40px` }}>
-        <h1 sx={{ marginTop: `50px`, textAlign: `center`, color: `white` }}>
+        <h1
+          sx={{
+            marginTop: `50px`,
+            textAlign: `center`,
+            color: `white`,
+            mb: `10px`,
+          }}
+        >
           {title}
         </h1>
+        <p sx={{ textAlign: `center`, color: `white` }}>by ICONICO</p>
       </div>
     </BackgroundImage>
   )

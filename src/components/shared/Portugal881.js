@@ -14,10 +14,9 @@ const GridContainer = styled.div`
 `
 
 const Grid = styled.div`
-display: grid; 
-grid-template-columns: repeat(2, auto);
-grid-gap: 5px; 
-
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 5px;
 `
 
 const convertArrayToObject = array => {
@@ -30,7 +29,7 @@ const convertArrayToObject = array => {
     }
   }, initialValue)
 }
- 
+
 const Portugal881 = () => {
   const { imgPortugal } = useIconico()
   const images = convertArrayToObject(imgPortugal)
@@ -38,12 +37,12 @@ const Portugal881 = () => {
   return (
     <GridContainer>
       <Grid>
-      <Img fluid={images.img4} />
-      <Img fluid={images.img1} />
+        <Img fluid={images.img4} />
+        <Img fluid={images.img1} />
       </Grid>
       <Grid>
-      <Img fluid={images.img6} />
-      <Img fluid={images.img5} />
+        <Img fluid={images.img6} />
+        <Img fluid={images.img5} />
       </Grid>
     </GridContainer>
   )
