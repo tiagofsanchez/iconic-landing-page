@@ -73,7 +73,7 @@ const Home = () => {
               url="https://vimeo.com/455871305/e27885077d"
               width="100%"
               height="100%"
-              controls="true"
+              controls={true}
               style={{ position: `absolute`, top: `0`, left: `0` }}
             />
           </div>
@@ -104,7 +104,7 @@ const Home = () => {
               url="https://vimeo.com/455871305/e27885077d"
               width="100%"
               height="100%"
-              controls="true"
+              controls={true}
               style={{ position: `absolute`, top: `0`, left: `0` }}
             />
           </div>

@@ -12,7 +12,7 @@ const useSiteMetadata = () => {
           siteLanguage
         }
       }
-      file(relativePath: { eq: "Hero2/hero2.jpg" }) {
+      file(relativePath: { eq: "icon.png" }) {
         publicURL
       }
     }

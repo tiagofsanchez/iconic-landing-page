@@ -52,13 +52,7 @@ const useIconico = () => {
           }
         }
       }
-      whatWeDo: file(relativePath: { eq: "whatDoWeDo/Ricoh.png" }) {
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
+  
     }
   `)
   const imgHero = data.hero.childImageSharp.fluid
@@ -66,8 +60,7 @@ const useIconico = () => {
   const imgIconico = data.iconico.edges
   const imgLuxury = data.luxury.edges
   const imgPortugal = data.portugal.edges
-  const imgWhatWeDo = data.whatWeDo.childImageSharp.fluid
-  return { imgIconico, imgLuxury, imgPortugal, imgWhatWeDo, imgHero, imgHero2 }
+  return { imgIconico, imgLuxury, imgPortugal, imgHero, imgHero2 }
 }
 
 export default useIconico

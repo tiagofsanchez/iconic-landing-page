@@ -12,13 +12,6 @@ const Container = styled.div`
   grid-template-rows: repeat(3, auto);
 `
 
-const ImgContainer = styled.div`
-  display: grid;
-  background-size: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-`
-
 const Iconico = () => {
   const { imgIconico } = useIconico()
 
