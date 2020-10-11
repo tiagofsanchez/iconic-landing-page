@@ -70,7 +70,7 @@ const Home = () => {
           />
           <div sx={{ position: `relative`, paddingTop: `56.25%` }}>
             <ReactPlayer
-              url="https://vimeo.com/455871305/e27885077d"
+              url="https://vimeo.com/466275012/049cd67c88"
               width="100%"
               height="100%"
               controls={true}
