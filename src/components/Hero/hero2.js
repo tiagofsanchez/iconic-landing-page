@@ -23,7 +23,6 @@ const Hero2 = ({ title }) => {
         >
           {title}
         </h1>
-        <p sx={{ textAlign: `center`, color: `white` , mt: `5px`, fontSize: `15px`}}>with ICONICO</p>
       </div>
     </BackgroundImage>
   )

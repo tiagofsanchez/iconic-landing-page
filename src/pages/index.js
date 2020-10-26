@@ -64,8 +64,9 @@ const Home = () => {
       <UpsSection>
         <RightSection>
           <Text
-            title="We turn dreams into memories"
-            description="Our customers can rent iconic properties across the world with all the amenities, comfort and privacy for a once in a lifetime trip with their family and friends. Each home is an experience with a wide range of on demand services and 24 hours customer support, all enabled by our seamless technology at their fingertips.
+            title="ICONICO is a luxury property management company offering short-term rentals in landmark homes
+            "
+            description="ICONICO homes are the luxury hotels of the future. We find the most iconic properties around the world and transform them to create a luxury experience for customers to enjoy with family and friends. With seamless technology, luxury designed interiors, outstanding comfort, a vast array of amenities, 24 hour assistance and a wide range of on demand services, each home is a destination. ICONICO homes can be found on AirBnb, Booking, Agoda, Expedia, TripAdvisor, One Fine Stay, Conde Nast Johansens, Sotheby's, Abercrombie & Kent, Mr & Mrs Smith and many more
             "
           />
           <div sx={{ position: `relative`, paddingTop: `56.25%` }}>
@@ -81,8 +82,9 @@ const Home = () => {
         <GridAreaSection>
           <TextContainer>
             <Text
-              title="ICONICO is a luxury property management company offering short and mid-term rentals in landmark properties"
-              description="With outstanding service dedicated to our guests, ICONICO aims to be the global standard for short and mid-term rental property management. Designed with the diligent host (property owners) in mind, our mission is to turn their loved holiday or second homes into profitable investments using technology to bring the tradition of luxury hospitality to the private property market creating outstanding experiences for guests and hosts to enjoy."
+              title="We manage our partners properties to deliver high returns and an outstanding experience
+              "
+              description="With exceptional service dedicated to guests and homeowners, our aim is to be the global standard in the luxury property market for short-term rentals. Designed with the diligent owner in mind, our mission is to turn their loved second homes into profitable investments, using technology to bring luxury hospitality to the private residence while creating unforgettable experiences. With ICONICO, owning a holiday home will be a profitable investment without the burdens of managing it"
             />
           </TextContainer>
           <PhotosContainer>
@@ -91,13 +93,14 @@ const Home = () => {
         </GridAreaSection>
       </UpsSection>
       <section>
-        <Hero2 title="Invest in a beautiful world" />
+        <Hero2 title=" Invest in a beautiful world with our real estate funds" />
       </section>
       <InvestorSection>
         <RightSection>
           <Text
-            title="ICONICO smart property funds are the future of luxury real estate investment"
-            description="Our funds are first and foremost focused on bringing the highest returns to our investors, we acquire iconic properties at the best market price and rent them to luxury holiday and business travelers. But we made it smarter so investors can enjoy these properties 14 days every year, at no cost as a true owner, to create long lasting memories and traditions with their family and friends. With ICONICO real estate funds you can own your dream ranch, vineyard estate, beach villa, castle, palace, ski chalet, city apartment and much more while making a profit through capital appreciation and rental yields."
+            title=" ICONICO real estate funds are the future of luxury property investment"
+            description="Imagine you can own the holiday home of your dreams, without paying for it, enjoy it whenever you want and generate income when you’re not using it. Be part of a new way of owning luxury properties, join our network of investors and own a piece of paradise everywhere you go. With ICONICO real estate funds you can turn your dreams into memories, feel like royalty in your castle, bring friends to your award winning vineyard, ski with family right from your chalet or be romantic exploring the city charms from your downtown apartment. With our real estate investment funds all this is possible while making money
+            "
           />
           <div sx={{ position: `relative`, paddingTop: `56.25%` }}>
             <ReactPlayer
@@ -111,8 +114,9 @@ const Home = () => {
         </RightSection>
         <GridAreaSection>
           <Text
-            title="Join our real estate funds and own a piece of paradise everywhere you go"
-            description="By managing hundreds of the world’s most beautiful properties through ICONICO, we’re uniquely positioned to find the best balance portfolio between strong ROI and unmatched experience for our customers and investors to make money while also enjoying these properties. We pay rental yields monthly and provide some of the best capital appreciation in the market by leveraging our funds capital to acquire iconic properties uniquely located with unmatched experience. When investing in one fund you can also enjoy homes from all funds worldwide, so everywhere you go there’s a dream home waiting for you."
+            title=" Invest, profit and enjoy the world's most extraordinary homes"
+            description="Our real estate investment funds are focused on bringing the highest returns and the best experiences to investors. We acquire iconic properties in the most sought-after locations, renovate and design for a luxury experience, and bring them to market under the ICONICO brand. Customers can rent these homes on the top vacation rental platforms worldwide and the rental yield is paid monthly to investors. But owning the world's most extraordinary homes would only be fun if our investors can enjoy it, therefore we offer 14 days per year for free in any of the properties, so our investors can create long-lasting memories and traditions with their family and friends
+            "
           />
           <PhotosContainer>
             <Luxury />
@@ -122,8 +126,8 @@ const Home = () => {
           <RightSection>
             <div>
               <Text
-                title="PORTUGAL 88 real estate fund"
-                description="Portugal is a beautiful country with an incredible return on investment potential and one of Europe’s fastest growing property appreciation rates. With our local expertise we’ll acquire up to 15 iconic properties in the best areas with the highest growth potential expecting strong rental yield. All properties will be available for investors to enjoy 14 days per year. PORTUGAL 88 is a Golden Visa eligible fund with a limited number of investors.
+                title="Invest in PORTUGAL 88 real estate fund"
+                description="Portugal 88 is ICONICO's latest fund and it's now open to investors. Portugal is a beautiful country with one of Europe’s fastest growing property appreciation rates. With our local expertise we’ll acquire up to 15 iconic luxury properties in the best locations across the country, from landmark downtown apartments in Lisbon and Porto, beautiful mansions and estates in Sintra, Comporta and the Azores islands to an award winning vineyard in the south. All while delivering high ROI from strong capital appreciation and rental yield. PORTUGAL 88 is a Golden Visa eligible fund with a limited number of investors and all properties will be available for them to enjoy with family and friends, 14 days per year, for free
                 "
               />
               <p sx={{ fontStyle: `italic` }}>

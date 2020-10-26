@@ -20,8 +20,8 @@ const Portugal = () => {
   return (
     <GridContainer>
       <Img fluid={imgPortugal[1].node.childImageSharp.fluid} />
-      <Img fluid={imgPortugal[2].node.childImageSharp.fluid} />
       <Img fluid={imgPortugal[0].node.childImageSharp.fluid} />
+      <Img fluid={imgPortugal[2].node.childImageSharp.fluid} />
     </GridContainer>
   )
 }
