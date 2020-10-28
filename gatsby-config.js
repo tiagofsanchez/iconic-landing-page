@@ -6,7 +6,6 @@ module.exports = {
     description:
       "The world’s most extraordinary homes are too important not to be shared",
     siteUrl: "https://www.theiconico.com/",
-    image: "./images/Hero2/hero2.jpg",
     siteLanguage: `en`,
   },
   plugins: [
