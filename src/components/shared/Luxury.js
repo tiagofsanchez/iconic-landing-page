@@ -40,17 +40,17 @@ const Luxury = () => {
   return (
     <GridContainer>
       <SmallGrid>
-        <Img fluid={images.img5} />
-        <Img fluid={images.img0} />
         <Img fluid={images.img4} />
+        <Img fluid={images.img0} />
+        <Img fluid={images.img5} />
       </SmallGrid>
       <Grid>
         <Img fluid={images.img6} />
       </Grid>
       <SmallGrid>
         <Img fluid={images.img1} />
-        <Img fluid={images.img2} />
         <Img fluid={images.img3} />
+        <Img fluid={images.img2} />
       </SmallGrid>
     </GridContainer>
   )

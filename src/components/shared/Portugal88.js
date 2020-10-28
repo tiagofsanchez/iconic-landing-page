@@ -21,7 +21,7 @@ const Portugal = () => {
     <GridContainer>
       <Img fluid={imgPortugal[1].node.childImageSharp.fluid} />
       <Img fluid={imgPortugal[0].node.childImageSharp.fluid} />
-      <Img fluid={imgPortugal[2].node.childImageSharp.fluid} style={{objectPositionY: `top`}}/>
+      <Img fluid={imgPortugal[2].node.childImageSharp.fluid}  imgStyle={{objectPosition: 'top'}}/>
     </GridContainer>
   )
 }
