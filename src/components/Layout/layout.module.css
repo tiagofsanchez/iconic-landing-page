@@ -2,5 +2,5 @@
    display:grid;
    margin: auto; 
    grid-template-rows: auto;
-   grid-gap: 100px;   
+   grid-gap: 150px;   
   }

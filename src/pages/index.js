@@ -14,7 +14,7 @@ import styled from "@emotion/styled"
 
 const UpsSection = styled.section`
   display: grid;
-  grid-gap: 80px;
+  grid-gap: 100px;
 `
 
 const RightSection = styled.section`
@@ -24,6 +24,16 @@ const RightSection = styled.section`
   grid-template-columns: 1fr 1fr;
   grid-gap: 30px;
   @media (max-width: 1000px) {
+    grid-template-columns: 1fr;
+  }
+`
+const RightSectionVideo = styled.section`
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  @media (max-width: 1400px) {
     grid-template-columns: 1fr;
   }
 `
@@ -53,7 +63,7 @@ const PhotosContainer = styled.div`
 
 const InvestorSection = styled.section`
   display: grid;
-  grid-gap: 80px;
+  grid-gap: 100px;
 `
 
 const Home = () => {
@@ -62,7 +72,7 @@ const Home = () => {
       <SEO />
       <Hero tagline="The world’s most extraordinary homes are too important not to be shared" />
       <UpsSection>
-        <RightSection>
+        <RightSectionVideo>
           <Text
             title="ICONICO is a luxury property management company offering short-term rentals in landmark homes
             "
@@ -71,14 +81,14 @@ const Home = () => {
           />
           <div sx={{ position: `relative`, paddingTop: `56.25%` }}>
             <ReactPlayer
-              url="https://vimeo.com/466275012/049cd67c88"
+              url="https://vimeo.com/472704629/1a33ed79e0"
               height="100%"
               width="100%"
               controls={true}
               style={{ position: `absolute`, top: `0`, left: `0` }}
             />
           </div>
-        </RightSection>
+        </RightSectionVideo>
         <GridAreaSection>
           <TextContainer>
             <Text
@@ -96,7 +106,7 @@ const Home = () => {
         <Hero2 title=" Invest in a beautiful world with our real estate funds" />
       </section>
       <InvestorSection>
-        <RightSection>
+        <RightSectionVideo>
           <Text
             title=" ICONICO real estate funds are the future of luxury property investment"
             description="Imagine you can own the holiday home of your dreams, without paying for it, enjoy it whenever you want and generate income when you’re not using it. Be part of a new way of owning luxury properties, join our network of investors and own a piece of paradise everywhere you go. With ICONICO real estate funds you can turn your dreams into memories, feel like royalty in your castle, bring friends to your award winning vineyard, ski with family right from your chalet or be romantic exploring the city charms from your downtown apartment. With our real estate investment funds all this is possible while making money
@@ -111,7 +121,7 @@ const Home = () => {
               style={{ position: `absolute`, top: `0`, left: `0` }}
             />
           </div>
-        </RightSection>
+        </RightSectionVideo>
         <GridAreaSection>
           <Text
             title=" Invest, profit and enjoy the world's most extraordinary homes"
@@ -127,11 +137,11 @@ const Home = () => {
             <div>
               <Text
                 title="Invest in PORTUGAL 88 real estate fund"
-                description="Portugal 88 is ICONICO's latest fund and it's now open to investors. Portugal is a beautiful country with one of Europe’s fastest growing property appreciation rates. With our local expertise we’ll acquire up to 15 iconic luxury properties in the best locations across the country, from landmark downtown apartments in Lisbon and Porto, beautiful mansions and estates in Sintra, Comporta and the Azores islands to an award winning vineyard in the south. All while delivering high ROI from strong capital appreciation and rental yield. PORTUGAL 88 is a Golden Visa eligible fund with a limited number of investors and all properties will be available for them to enjoy with family and friends, 14 days per year, for free
+                description="Portugal 88 is ICONICO's latest fund and it's now open to investors. Portugal is a beautiful country with one of Europe’s fastest growing property appreciation rates. With our local expertise we’ll acquire up to 15 iconic luxury properties in the best locations across the country, from landmark downtown apartments in Lisbon and Porto, beautiful mansions and estates in Sintra, Comporta and the Azores islands to an award winning vineyard in the south. All while delivering high ROI from strong capital appreciation and rental yield. PORTUGAL 88 is a Golden Visa eligible fund with a limited number of investors and all properties will be available to enjoy with family and friends, 14 days per year, for free
                 "
               />
               <p sx={{ fontStyle: `italic` }}>
-                “Portugal is Europe’s Hottest Property Market...” by Bloomberg
+                “Portugal is Europe’s hottest property market...” by Bloomberg
               </p>
               <p sx={{ fontStyle: `italic` }}>
                 “Political stability, low corporation tax and tax breaks, all
@@ -140,10 +150,8 @@ const Home = () => {
               </p>
               <p sx={{ fontStyle: `italic` }}>
                 “Lisbon 8th best city in the world for short term rental
-                business” by Forbes
-              </p>
-              <p sx={{ fontStyle: `italic` }}>
-                “Porto top 5 european cities to invest in real estate” by Forbes
+                business” and “Porto top 5 european cities to invest in real
+                estate” by Forbes
               </p>
             </div>
             <Portugal />
