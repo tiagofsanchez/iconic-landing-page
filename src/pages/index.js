@@ -136,9 +136,8 @@ const Home = () => {
           <RightSection>
             <div>
               <Text
-                title="Invest in PORTUGAL 88 real estate fund"
-                description="Portugal 88 is ICONICO's latest fund and it's now open to investors. Portugal is a beautiful country with one of Europe’s fastest growing property appreciation rates. With our local expertise we’ll acquire up to 15 iconic luxury properties in the best locations across the country, from landmark downtown apartments in Lisbon and Porto, beautiful mansions and estates in Sintra, Comporta and the Azores islands to an award winning vineyard in the south. All while delivering high ROI from strong capital appreciation and rental yield. PORTUGAL 88 is a Golden Visa eligible fund with a limited number of investors and all properties will be available to enjoy with family and friends, 14 days per year, for free
-                "
+                title="Invest in PORTUGAL 88 fund"
+                description="Portugal 88 is an investment fund focused on luxury short-term rental real estate. Portugal is a beautiful country with one of Europe’s fastest growing property appreciation rates. With our local expertise we’ll acquire up to 20 iconic luxury properties in the best locations across the country, from landmark downtown apartments in Lisbon and Porto, beautiful mansions and estates in Sintra, Cascais, Comporta and the islands of Azores and Madeira. All while delivering high ROI from the short-term operation and capital appreciation. PORTUGAL 88 is a Golden Visa eligible fund with a limited number of investors and all properties will be available to enjoy with their family and friends, 14 days per year, for free"
               />
               <p sx={{ fontStyle: `italic` }}>
                 “Portugal is Europe’s hottest property market...” by Bloomberg
